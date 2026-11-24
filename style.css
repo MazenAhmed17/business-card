@@ -1,0 +1,26 @@
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #555b6e;
+    background-color: #bee3db;
+    border-bottom: 10px solid #555b6e;
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 15px #555b6e;
+    transform: scale(1.03);
+}
+
+.avatar {
+    width: 150px;
+}
